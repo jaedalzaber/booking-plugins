@@ -1,1 +1,20 @@
-{ "plugins": [] }
+{
+  "plugins": [
+    {
+      "id": "appointit.vertical-dental",
+      "slug": "dental",
+      "name": "Dental clinic",
+      "publisher": "AppointIt",
+      "description": "Everything a dental clinic needs on top of the booking platform: medical history with alerts, insurance, consent forms, the dental chart, procedures, treatment plans, recall, and a starter pack.",
+      "version": "0.2.0",
+      "engines": { "appointit": "^0.2.0" },
+      "icon": "https://raw.githubusercontent.com/jaedalzaber/plugin-dental/main/icon.svg",
+      "homepage": "https://github.com/jaedalzaber/plugin-dental",
+      "tags": ["dental", "clinic", "healthcare", "business-type"],
+      "download": {
+        "git": "https://github.com/jaedalzaber/plugin-dental.git",
+        "ref": "v0.2.0"
+      }
+    }
+  ]
+}
